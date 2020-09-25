@@ -4,7 +4,7 @@ servers:
   - url: http://api.math.tools
 info:
   description: >
-    All about Numbers. REST access with json/xml/jsonp result support. Below is the documentation for the Numbers API. You can try them out right here. Find more information and subscribe at [math.tools](https://math.tools/api/numbers/)  
+    All about Numbers. REST access with json/xml/jsonp result support. Below is the documentation for the Numbers API. You can try them out right here. Find more information and subscribe at [math.tools](https://math.tools/api/numbers/) sachini 
   title: Numbers API
   version: "1.5"
   x-apisguru-categories:
