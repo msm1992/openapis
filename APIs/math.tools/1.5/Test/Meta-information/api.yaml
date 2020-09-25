@@ -1,0 +1,29 @@
+id:
+  providerName: admin
+  apiName: NumbersAPI
+  version: "1.5"
+description: "All about Numbers. REST access with json/xml/jsonp result support. Below
+  is the documentation for the Numbers API. You can try them out right here. Find
+  more information and subscribe at [math.tools](https://math.tools/api/numbers/)
+  \ \n"
+type: HTTP
+context: /NumbersAPI/1.5
+contextTemplate: /NumbersAPI/{version}
+tags:
+- Number of the day
+- Number Facts
+- Number Generation
+- Spell
+- Base Conversion
+- Number Systems Conversion
+- Prime
+- PI
+- Number Checks
+availableTiers:
+- name: Unlimited
+status: CREATED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
+enableStore: true
