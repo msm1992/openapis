@@ -6,7 +6,7 @@ components:
       type: apiKey
 info:
   description: "All about Numbers. REST access with json/xml/jsonp result support.
-    Belows the documentation for the Numbers API. You can try them out right here.
+    Below is the documentation for the Numbers API. You can try them out right here.
     Find more information and subscribe at [math.tools](https://math.tools/api/numbers/)
     \ \n"
   title: Numbers API

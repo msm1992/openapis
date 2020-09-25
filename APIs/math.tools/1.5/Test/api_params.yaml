@@ -1,12 +1,21 @@
 environments:
-  - name: test
-    endpoints:
-        production:
-        sandbox:
   - name: dev
     endpoints:
-        production:
-        sandbox:
+      production:
+      sandbox:
+  - name: misc_prod
+    endpoints:
+      production:
+      sandbox:
+  - name: production
+    endpoints:
+      production:
+      sandbox:
+  - name: test
+    endpoints:
+      production:
+      sandbox:
+
 deploy:
   import:
     update: true
